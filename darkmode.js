@@ -6,15 +6,18 @@ document.addEventListener('DOMContentLoaded', function() {
     const isDarkModeEnabled = localStorage.getItem('darkMode') === 'enabled';
 
     // Set dark mode by default
-    body.classList.toggle('dark-mode', isDarkModeEnabled);
-    darkModeToggle.checked = isDarkModeEnabled;
+    setDarkMode(isDarkModeEnabled);
 
     // Toggle dark mode when the user changes the checkbox
     darkModeToggle.addEventListener('change', function() {
         const isDarkMode = darkModeToggle.checked;
-        body.classList.toggle('dark-mode', isDarkMode);
+        setDarkMode(isDarkMode);
 
         // Save user preference to local storage
         localStorage.setItem('darkMode', isDarkMode ? 'enabled' : 'disabled');
     });
+
+    function setDarkMode(isDarkMode) {
+        body.classList.toggle('dark-mode', isDarkMode);
+    }
 });
