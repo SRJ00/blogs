@@ -27,3 +27,9 @@ nav label, nav a {
     margin-right: 10px;
     color: #fff;
 }
+
+/* Align "About Me" link to the right */
+nav a:last-child {
+    margin-right: 0;
+    margin-left: auto;
+}
