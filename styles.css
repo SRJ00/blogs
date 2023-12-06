@@ -1,31 +1,34 @@
-<style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #333;
-            color: #fff;
-            transition: background-color 0.5s, color 0.5s;
-            margin: 0;
-        }
+body {
+  background-color: #222;
+  color: #fff;
+}
 
-        .container {
-            padding: 20px;
-            border: 1px solid #555;
-            border-radius: 5px;
-        }
+h1, h2, h3, h4, h5, h6 {
+  color: #fff;
+}
 
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+a {
+  color: #fff;
+}
 
-        nav {
-            display: flex;
-            align-items: center;
-        }
+a:hover {
+  color: #ccc;
+}
 
-        nav label, nav a {
-            margin-right: 10px;
-            color: #fff;
-        }
-    </style>
+.container {
+  background-color: #333;
+  padding: 20px;
+}
+
+.button {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #777;
+}
