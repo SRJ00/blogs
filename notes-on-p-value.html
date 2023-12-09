@@ -14581,7 +14581,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h1 id="Notes-on-p-value">Notes on p-value<a class="anchor-link" href="#Notes-on-p-value">&#182;</a></h1><h3 id="Dec-9-2023"><em>Dec 9 2023</em><a class="anchor-link" href="#Dec-9-2023">&#182;</a></h3><p><font size=4> P-value plays an integral part in testing of hypothesis. It is a common practice to reject the null hypothesis based on a p-value.
-<br>But there are couple of important questions:</p>
+<br>But there are a couple of important questions:</p>
 <p><font size=4>1. What is a p-value?
 <br><font size=4>2. Is p-value reliable?</p>
 
@@ -14612,7 +14612,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <font size=4>Not really.</p>
 <p><font size=4>So what we do is, maybe collect a random sample that includes the height of people from different parts of India and based on that see whether our hypothesis holds.
 So basically, we will do a statistical hypothesis test to decide whether the data/sample at hand sufficiently supports our hypothesis.</p>
-<p><font size=4> It is important to note, if we are doing random sampling multiple times, it is most likely that at each time we will get a different sample. So, the average height calculated based on a sample will change with the sample itself. Hence, whatever statement we will give about the average height of the population will have some uncertainty or will be subjected to a probability.</p>
+<p><font size=4> It is important to note, that if we are doing random sampling multiple times, it is most likely that at each time we will get a different sample. So, the average height calculated based on a sample will change with the sample itself. Hence, whatever statement we will give about the average height of the population will have some uncertainty or will be subjected to a probability.</p>
 <p><font size=4> In statistics terminology, the statement which is being tested is called the null hypothesis. In our case, it is, the average height of the Indian population is 5.5 feet.</p>
 <p><font size=4> In most cases, the average height calculated based on the sample will not be the same as 5.5 feet. So the question is, whether the difference between the average height calculated based on the sample and 5.5 feet is due to chance or is it significant.</p>
 <p><font size=4> Now let's come to the p-value.</p>
@@ -14673,7 +14673,7 @@ So basically, we will do a statistical hypothesis test to decide whether the dat
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p><font size=4> From the distribution of the p-value, we can see it is approximately uniform.</p>
-<p><font size=4> Now what if the distribution of p-value is not uniform?</p>
+<p><font size=4> Now what if the distribution of the p-value is not uniform?</p>
 <p><font size=4> We are going to compare the average age of patients who are at various stages of tumor development.</p>
 <p><font size=4> We will check whether there's a significant difference in the average age of patients who are at different stages of tumor development. After doing the test on the observed data, we obtained a p-value of 0.02405. If we consider alpha as 0.05 then, $ p-value&lt;alpha$ and we can choose to reject the null hypothesis and conclude there's a significant difference in the average age of patients with different tumor stages.</p>
 
@@ -14703,7 +14703,7 @@ So basically, we will do a statistical hypothesis test to decide whether the dat
 <p><font size=4> In conclusion, making decisions only based on p-value can cause serious consequences. If you want to use a p-value, consider a p-value which is very much less than 0.05. In 2018, a group of statisticians led by Daniel Benjamin proposed the adoption of the 0.005 value as the standard value for statistical significance worldwide <a href="https://en.wikipedia.org/wiki/P-value#cite_note-BenjaminBergerJohannesson2017-10">[Wikipedia p-value]</a>. Rejection of the null hypothesis does not necessarily mean that the alternative hypothesis is true. </p>
 <p><font size=4>Even in cases where there's no evidence of significance, we cannot say we accept the null hypothesis or that the null hypothesis is true. Just because we cannot prove two things are different does not mean they are necessarily the same. Remember, the absence of evidence is not the same as evidence of absence.
 <p><font size='4'> Along with the p-value, confidence intervals should be considered as they also tell about how reliable the estimates are.</p> 
-<p><font size='4'> The results that are obtained may be subjected to: wrong assumptions, inappropriate sampling method used for the data, and so on. And if that is the case, then the results themselves become unreliable. </p>
+<p><font size='4'>Even after using multiple methods for testing the significance, we might obtain flawed results, and that might be because of wrong assumptions, inappropriate sampling techniques used for the data, and so on. In that case, the methods themselves become unreliable. </p>
 <p><font size='4'>To dive more into the p-value issues and possible solutions, I suggest looking into the article, <a href="https://onlinelibrary.wiley.com/doi/10.1002/bimj.201700001">A critical evaluation of the current “p-value controversy”</a></p>
 <p><font size='4'> In this article we also shed some light on the distribution of p-value. In case you want to dive deeper, <a href="http://varianceexplained.org/statistics/interpreting-pvalue-histogram/">How to interpret p-value histogram</a> is an interesting read.</p>
 <p><font size='4'> If you want to look into the theoretical aspects, <a href="https://arxiv.org/abs/2001.10488">Statistical Consequences of Fat Tails: Real World Preasymptotics, Epistemology, and Applications by Nassim Nicholas Taleb</a> is an excellent book.</p>
