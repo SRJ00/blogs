@@ -1,2 +1,1 @@
-# Articles
-Articles in HTML Format
+# Blogs
